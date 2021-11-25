@@ -1,0 +1,66 @@
+:root
+{
+--primary:#e2470a;
+--dark:#161616;
+--secondary:#070606;
+}
+body
+{
+    background-color: var(--dark);
+
+}
+.row
+{
+    align-items: center;
+    height: 100vh;
+}
+.card
+{
+    width: 18rem;
+    margin: 0 auto;
+}
+.card-header
+{
+    background-color: var(--primary);
+}
+.card-header button
+{
+    position: absolute;
+    right: 2%;
+    align-items: center;
+}
+.btn
+{
+padding: 0.8rem 2rem;
+font-size: 1rem;
+font-weight: 600;
+border:2px solid transparent;
+outline: none;
+cursor: pointer;
+text-transform: uppercase;
+transition: all .3s;
+}
+.btn-primary
+{
+    background:var(--primary);
+    color: var(--secondary);
+}
+.btn-primary:hover
+{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary)
+
+}
+.btn-secondary
+{
+    background:transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    transition: all .3s;
+}
+.btn-secondary:hover
+{
+    color: var(--secondary);
+    background:var(--primary);
+}
